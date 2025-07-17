@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>to-do list</title>
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <section id="con1" class="container c1">
+      <div class="nav">
+        <button id="btn" class="btn">
+          <i class="fa-solid fa-question"></i>
+        </button>
+        <input placeholder="What do you want to do next?" list="o" class="put" id="put"/>
+        <button class="btn0" id="btn0" type="submit">+Add</button>
+        <datalist id="o">
+          <option value="I wake up at 7 am"></option>
+          <option value="playing football with friends"></option>
+          <option value="Going to the club"></option>
+          <option value="Early to bed to wake up early"></option>
+        </datalist>
+      </div>
+      <div id="center" class="center">
+      </div>
+    </section>
+    <section id="con2" class="container c2">
+      <h1>What is this?</h1>
+      <p>This is a small do-list You can write tasks.You can write the tasks and after completing them you can click on the check mark. But if you can't do what is important, you can simply delete it by clicking on the mark cross. </p>
+      <h2>I HOPE YOU LIKE IT </h2>
+      <button id="btn-change"> Go to it </button>
+    </section>
+    <audio id="sound1" src="s1.wav"></audio>
+    <audio id="sound2" src="s2.wav"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
